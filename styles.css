@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+#home {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-home {
+    width: 94vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.first-line,
+.second-line,
+.thrid-line,
+.fourth-line {
+    display: flex;
+}
+
+.first-line,
+.fourth-line {
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.second-line,
+.thrid-line {
+    line-height: 110px;
+    
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.first-line {
+
+   
+}
+
+.second-line {
+    
+    
+}
+
+.thrid-line {
+
+   
+}
+
+.fourth-line {
+    
+}
+
+.link{
+    flex: 0 1 calc(0.5 * 80px);
+    display: flex;
+    
+    justify-content: center;
+    
+
+}
+
+.linkedin-icon,
+.github-icon,
+.pdf-file {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.linkedin-icon {
+    color: #0077B5; 
+}
+
+.github-icon {
+    color: #333; 
+}
+
+.pdf-file {
+    color: #f70f00; 
+}
